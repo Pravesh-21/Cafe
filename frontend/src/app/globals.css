@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FAF7F0; /* Soft warm cream */
+  --foreground: #1E1815; /* Rich dark chocolate/espresso */
+  --espresso: #FAF7F0;   /* Light cream cards default */
+  --gold: #B5654A;       /* Warm rust/terracotta */
+  --accent: #E6C84F;     /* Vibrant golden yellow CTA */
+  --font-display: var(--font-display);
+  --font-serif: var(--font-serif);
+  --font-sans: var(--font-sans);
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sans), sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .font-display {
+    font-family: var(--font-display), sans-serif;
+  }
+
+  .font-serif-custom {
+    font-family: var(--font-serif), serif;
+  }
+
+  .font-sans-custom {
+    font-family: var(--font-sans), sans-serif;
+  }
+}
