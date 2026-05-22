@@ -31,16 +31,16 @@ export default function Home() {
         <div ref={heroRef} className="relative z-10 max-w-5xl flex flex-col items-center pt-20">
           {/* Tagline Badge */}
           <div className="font-sans text-[11px] uppercase tracking-[0.25em] font-black bg-white/10 backdrop-blur-md text-white/90 border border-white/20 rounded-full px-5 py-2 mb-8 shadow-sm">
-            #1 Specialty Coffee & Artisan Cafe
+            The Ultimate Cafe Vibe
           </div>
 
           {/* Massive Oswald Headline */}
           <h1 className="font-display text-6xl md:text-8xl lg:text-[100px] font-black mb-6 tracking-tight leading-[0.9] text-white uppercase max-w-4xl text-balance">
-            SAVOUR THE CRAFT THAT TELLS A STORY
+            COFFEE, FOOD, & IMMACULATE VIBES
           </h1>
 
           <p className="font-serif italic text-lg md:text-xl text-[#FAF7F0]/80 mb-12 max-w-xl">
-            Handcrafted micro-lots and artisan eats. Sourced with care, served with passion.
+            Sip the aesthetic. Taste the passion. Your new favorite hangout awaits.
           </p>
 
           <a
@@ -73,9 +73,9 @@ export default function Home() {
               { image: "/latte_art.png", text: "Latte Art" },
               { image: "/coffee_cup.png", text: "Coffee Cup" },
               { image: "/cta.png", text: "Pour Over" },
-              { image: "/cupping.png", text: "Cupping" },
-              { image: "/story_roasting.png", text: "Roasting" },
-              { image: "/story_sourcing.png", text: "Sourcing" }
+              { image: "/cupping.png", text: "Flavor Flight" },
+              { image: "/story_roasting.png", text: "Brew Craft" },
+              { image: "/story_sourcing.png", text: "Ethical Sips" }
             ]}
             bend={1}
             textColor="#ffffff"
@@ -216,7 +216,7 @@ export default function Home() {
               Our Ethos
             </div>
             <h2 className="font-display text-5xl md:text-6xl font-black text-white uppercase mb-4">The Cravers Way</h2>
-            <p className="font-serif italic text-[#FAF7F0]/70 text-lg max-w-2xl">Crafting experiences that awaken your senses, one detail at a time.</p>
+            <p className="font-serif italic text-[#FAF7F0]/70 text-lg max-w-2xl">Where every detail is a vibe, and every cup tells a story.</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
@@ -240,9 +240,9 @@ export default function Home() {
                 />
               </div>
               <span className="font-display text-6xl font-black text-white/10 mb-4 transition-colors duration-500 group-hover:text-white/30">01</span>
-              <h3 className="font-display text-2xl font-black mb-3 uppercase text-white tracking-tight">The Roast</h3>
+              <h3 className="font-display text-2xl font-black mb-3 uppercase text-white tracking-tight">The Coffee</h3>
               <p className="font-serif italic text-[#FAF7F0]/60 text-sm leading-relaxed">
-                Handcrafted micro-lots sourced at extreme altitudes. Roasted with obsession in small batches.
+                Immaculate brews. Expertly crafted drinks that taste as good as they look on your feed.
               </p>
             </motion.div>
 
@@ -268,7 +268,7 @@ export default function Home() {
               <span className="font-display text-6xl font-black text-white/10 mb-4 transition-colors duration-500 group-hover:text-white/30">02</span>
               <h3 className="font-display text-2xl font-black mb-3 uppercase text-white tracking-tight">The Kitchen</h3>
               <p className="font-serif italic text-[#FAF7F0]/60 text-sm leading-relaxed">
-                Artisan eats and fresh ingredients. We believe food should be as expressive as our coffee.
+                Aesthetic plates. Deliciously curated dishes made for sharing and creating moments.
               </p>
             </motion.div>
 
@@ -294,7 +294,7 @@ export default function Home() {
               <span className="font-display text-6xl font-black text-white/10 mb-4 transition-colors duration-500 group-hover:text-white/30">03</span>
               <h3 className="font-display text-2xl font-black mb-3 uppercase text-white tracking-tight">The Space</h3>
               <p className="font-serif italic text-[#FAF7F0]/60 text-sm leading-relaxed">
-                A sanctuary for your senses. Designed for conversation, contemplation, and pure enjoyment.
+                The sanctuary. Designed for slow mornings, deep conversations, and finding your perfect corner.
               </p>
             </motion.div>
           </div>
@@ -318,11 +318,11 @@ export default function Home() {
           >
             {/* Subtitle Badge */}
             <div className="font-sans text-[11px] uppercase tracking-[0.2em] font-black text-[#1E1815]/60 border border-[#1E1815]/10 rounded-full px-4 py-1.5 mb-4 bg-white/50 backdrop-blur-sm shadow-sm">
-              Daily Selection
+              Fresh Drops
             </div>
 
-            <h2 className="font-display text-5xl md:text-6xl font-black text-[#1E1815] uppercase mb-4">Chef's Highlights</h2>
-            <p className="font-serif italic text-[#1E1815]/70 text-lg">Curated daily specials from our craft kitchen</p>
+            <h2 className="font-display text-5xl md:text-6xl font-black text-[#1E1815] uppercase mb-4">Signature Edits</h2>
+            <p className="font-serif italic text-[#1E1815]/70 text-lg">Dishes that are worth the hype.</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -344,7 +344,7 @@ export default function Home() {
                   <h3 className="font-display text-xl font-black text-[#1E1815] uppercase tracking-tight">Artisan Croissant</h3>
                   <span className="font-sans font-bold text-sm bg-[#1E1815] text-[#FAF7F0] px-3 py-1 rounded-full">$5.50</span>
                 </div>
-                <p className="font-serif text-sm text-[#1E1815]/70 italic mb-4">Flaky, butter-rich layers baked fresh every morning.</p>
+                <p className="font-serif text-sm text-[#1E1815]/70 italic mb-4">Flaky, butter-rich layers. The ultimate morning comfort.</p>
                 <div className="flex items-center text-xs font-black uppercase tracking-wider text-[#1E1815] group-hover:text-[#1E1815]/70 transition-colors">
                   <span>Discover</span>
                   <span className="ml-2 transform translate-x-0 group-hover:translate-x-1 transition-transform duration-300">→</span>
@@ -370,7 +370,7 @@ export default function Home() {
                   <h3 className="font-display text-xl font-black text-[#1E1815] uppercase tracking-tight">Tropical Smoothie</h3>
                   <span className="font-sans font-bold text-sm bg-[#1E1815] text-[#FAF7F0] px-3 py-1 rounded-full">$7.00</span>
                 </div>
-                <p className="font-serif text-sm text-[#1E1815]/70 italic mb-4">Fresh mango, passionfruit, and coconut milk blend.</p>
+                <p className="font-serif text-sm text-[#1E1815]/70 italic mb-4">Pure sunshine in a cup. Mango, passionfruit, and coconut milk.</p>
                 <div className="flex items-center text-xs font-black uppercase tracking-wider text-[#1E1815] group-hover:text-[#1E1815]/70 transition-colors">
                   <span>Discover</span>
                   <span className="ml-2 transform translate-x-0 group-hover:translate-x-1 transition-transform duration-300">→</span>
@@ -396,7 +396,7 @@ export default function Home() {
                   <h3 className="font-display text-xl font-black text-[#1E1815] uppercase tracking-tight">Nitros Cold Brew</h3>
                   <span className="font-sans font-bold text-sm bg-[#1E1815] text-[#FAF7F0] px-3 py-1 rounded-full">$6.00</span>
                 </div>
-                <p className="font-serif text-sm text-[#1E1815]/70 italic mb-4">16-hour steep served on nitro for a creamy finish.</p>
+                <p className="font-serif text-sm text-[#1E1815]/70 italic mb-4">Smooth, bold, and highly caffeinated. Served on tap for that creamy finish.</p>
                 <div className="flex items-center text-xs font-black uppercase tracking-wider text-[#1E1815] group-hover:text-[#1E1815]/70 transition-colors">
                   <span>Discover</span>
                   <span className="ml-2 transform translate-x-0 group-hover:translate-x-1 transition-transform duration-300">→</span>

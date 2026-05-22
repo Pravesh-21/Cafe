@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 const NAV_LINKS = [
   { href: '/', label: 'Home' },
   { href: '/story', label: 'Our Story' },
-  { href: '/blends', label: 'Browse Blends' },
+  { href: '/blends', label: 'Menu' },
   { href: '/cupping', label: 'Rituals' },
   { href: '/faq', label: 'FAQ' },
 ];
@@ -67,7 +67,7 @@ export default function Navbar() {
               href="/access"
               className="hidden md:flex items-center gap-1.5 font-display text-[11px] uppercase tracking-wider bg-[#E6C84F] hover:bg-[#E6C84F]/80 text-[#1E1815] py-2.5 px-6 rounded-full font-black transition-all shadow-sm"
             >
-              Request Access <span>→</span>
+              Reserve <span>→</span>
             </Link>
 
             {/* Hamburger */}
@@ -103,7 +103,7 @@ export default function Navbar() {
           href="/access"
           className="mt-4 font-display text-sm uppercase tracking-wider bg-[#E6C84F] text-[#1E1815] py-4 px-10 rounded-full font-black"
         >
-          Request Access →
+          Reserve →
         </Link>
       </div>
     </>

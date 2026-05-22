@@ -19,13 +19,13 @@ export default function CuppingPage() {
         {/* Header Section */}
         <div className="flex flex-col items-center text-center mb-24 mt-12">
           <div className="font-sans text-[11px] uppercase tracking-[0.2em] font-black text-[#FAF7F0]/60 border border-white/10 rounded-full px-4 py-1.5 mb-6 bg-white/5 backdrop-blur-sm shadow-sm inline-block">
-            Member Experiences
+            Guest Experiences
           </div>
           <h1 className="font-display text-5xl md:text-7xl font-black mb-4 text-white uppercase tracking-tighter leading-none">
-            Sensory <span className="font-serif italic font-normal normal-case text-[#E6C84F]">Rituals</span>
+            Flavor <span className="font-serif italic font-normal normal-case text-[#E6C84F]">Flights</span>
           </h1>
           <p className="font-sans text-base text-[#FAF7F0]/60 leading-relaxed max-w-2xl">
-            Go beyond the cup. Our rituals are structured educational sessions shaped by the harvest season, designed to elevate your palate and understanding of coffee.
+            Go beyond the daily cup. Join our exclusive tasting flights to explore rare flavors and perfect pairings in a curated vibe.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function CuppingPage() {
         <div className="mb-32">
           <div className="flex flex-col md:flex-row justify-between items-baseline mb-12 border-b border-white/10 pb-6">
             <h2 className="font-display text-2xl font-black uppercase text-white">What to Expect</h2>
-            <span className="font-serif italic text-sm text-[#E6C84F]">The Anatomy of a Cupping</span>
+            <span className="font-serif italic text-sm text-[#E6C84F]">The Art of the Flight</span>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -49,9 +49,9 @@ export default function CuppingPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1E1815] via-transparent to-transparent opacity-60" />
                 <span className="absolute bottom-4 left-6 font-display text-4xl font-black text-white/20">01</span>
               </div>
-              <h3 className="font-display text-lg font-black uppercase text-white mb-2 group-hover:text-[#E6C84F] transition-colors">The Aroma</h3>
+              <h3 className="font-display text-lg font-black uppercase text-white mb-2 group-hover:text-[#E6C84F] transition-colors">The Scent</h3>
               <p className="font-sans text-xs text-[#FAF7F0]/60 leading-relaxed">
-                We begin by evaluating the dry fragrance of freshly ground micro-lots. You'll learn to identify origin characteristics before water ever touches the coffee.
+                Breathe it in. Experience the rich, raw aroma of freshly ground specialty coffee before we begin the pour.
               </p>
             </div>
 
@@ -66,9 +66,9 @@ export default function CuppingPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1E1815] via-transparent to-transparent opacity-60" />
                 <span className="absolute bottom-4 left-6 font-display text-4xl font-black text-white/20">02</span>
               </div>
-              <h3 className="font-display text-lg font-black uppercase text-white mb-2 group-hover:text-[#E6C84F] transition-colors">The Break</h3>
+              <h3 className="font-display text-lg font-black uppercase text-white mb-2 group-hover:text-[#E6C84F] transition-colors">The Bloom</h3>
               <p className="font-sans text-xs text-[#FAF7F0]/60 leading-relaxed">
-                After hot water is added, a crust forms. At exactly 4 minutes, we "break" the crust with a spoon, releasing a burst of intense aroma that reveals the coffee's true profile.
+                Watch it bloom. As water meets coffee, it releases a burst of intense aroma, revealing its true character.
               </p>
             </div>
 
@@ -83,9 +83,9 @@ export default function CuppingPage() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#1E1815] via-transparent to-transparent opacity-60" />
                 <span className="absolute bottom-4 left-6 font-display text-4xl font-black text-white/20">03</span>
               </div>
-              <h3 className="font-display text-lg font-black uppercase text-white mb-2 group-hover:text-[#E6C84F] transition-colors">The Slurp</h3>
+              <h3 className="font-display text-lg font-black uppercase text-white mb-2 group-hover:text-[#E6C84F] transition-colors">The Taste</h3>
               <p className="font-sans text-xs text-[#FAF7F0]/60 leading-relaxed">
-                The final step. Aspirating the coffee sharply to cover the entire palate. You'll analyze acidity, body, and sweetness as the coffee cools.
+                The perfect sip. Taste the layers of flavor, acidity, and sweetness as the cup cools.
               </p>
             </div>
 
@@ -110,12 +110,12 @@ export default function CuppingPage() {
                 </div>
                 <div>
                   <span className="font-sans text-[10px] uppercase tracking-wider text-[#E6C84F] font-black block mb-1">Level: Advanced</span>
-                  <h3 className="font-display text-lg font-black text-white uppercase leading-none mb-2">The Roast Master's Reserve</h3>
-                  <p className="font-sans text-xs text-[#FAF7F0]/60 max-w-xs">A curated flight of 3 microlots sourced from extreme altitudes. Vetted members only.</p>
+                  <h3 className="font-display text-lg font-black text-white uppercase leading-none mb-2">Specialty Tasting Flight</h3>
+                  <p className="font-sans text-xs text-[#FAF7F0]/60 max-w-xs">A curated flight of 3 specialty drinks paired with artisan bites. Reservations required.</p>
                 </div>
               </div>
               <div className="flex flex-col items-end gap-3 shrink-0">
-                <span className="font-sans text-xs font-black text-white">2 CREDITS</span>
+                <span className="font-sans text-xs font-black text-white">$15.00</span>
                 <Link href="/access" className="bg-white/5 hover:bg-[#E6C84F] hover:text-[#1E1815] text-white border border-white/10 font-sans text-[10px] uppercase tracking-wider py-2.5 px-5 font-black transition-all rounded-full shadow-md">
                   Book Spot
                 </Link>
@@ -132,11 +132,11 @@ export default function CuppingPage() {
                 <div>
                   <span className="font-sans text-[10px] uppercase tracking-wider text-[#E6C84F] font-black block mb-1">Level: Intermediate</span>
                   <h3 className="font-display text-lg font-black text-white uppercase leading-none mb-2">Espresso Theory</h3>
-                  <p className="font-sans text-xs text-[#FAF7F0]/60 max-w-xs">Mastering extraction variables, TDS, and pressure profiling on commercial gear.</p>
+                  <p className="font-sans text-xs text-[#FAF7F0]/60 max-w-xs">Learn the art of the perfect espresso. From grind size to milk texture.</p>
                 </div>
               </div>
               <div className="flex flex-col items-end gap-3 shrink-0">
-                <span className="font-sans text-xs font-black text-white">1.5 CREDITS</span>
+                <span className="font-sans text-xs font-black text-white">$10.00</span>
                 <Link href="/access" className="bg-white/5 hover:bg-[#E6C84F] hover:text-[#1E1815] text-white border border-white/10 font-sans text-[10px] uppercase tracking-wider py-2.5 px-5 font-black transition-all rounded-full shadow-md">
                   Book Spot
                 </Link>

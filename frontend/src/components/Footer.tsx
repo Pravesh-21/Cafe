@@ -8,7 +8,7 @@ export default function Footer() {
         <div>
           <span className="font-display text-3xl font-black text-white tracking-tighter block mb-3">CRAVERS</span>
           <p className="text-xs text-gray-500 leading-relaxed max-w-xs">
-            Members-only specialty direct-trade coffee reserve. Ultra-premium micro-lots sourced at extreme altitudes.
+            Craft Coffee & Artisan Eats. Sourced with care, served with passion.
           </p>
         </div>
 
@@ -19,7 +19,7 @@ export default function Footer() {
             {[
               { href: '/', label: 'Home' },
               { href: '/story', label: 'Our Story' },
-              { href: '/blends', label: 'Browse Blends' },
+              { href: '/blends', label: 'Menu' },
               { href: '/cupping', label: 'Rituals' },
               { href: '/faq', label: 'FAQ' },
             ].map((link) => (
@@ -38,20 +38,20 @@ export default function Footer() {
         <div>
           <span className="text-[10px] uppercase tracking-[0.3em] font-black text-[#E6C84F] block mb-4">Access</span>
           <p className="text-xs text-gray-500 mb-6 leading-relaxed">
-            Limited seats available this season. Apply for membership to unlock the reserve list.
+            Visit us today or reserve a table for a special experience.
           </p>
           <Link
             href="/access"
             className="inline-flex items-center gap-2 font-display text-[11px] uppercase tracking-wider bg-[#E6C84F] text-[#1E1815] py-3 px-7 rounded-full font-black hover:opacity-90 transition-opacity"
           >
-            Request Access →
+            Reserve →
           </Link>
         </div>
       </div>
 
       <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
         <p className="text-[10px] text-gray-600 uppercase tracking-widest">
-          © 2026 CRAVERS COFFEE INC. All rights reserved.
+          © 2026 CRAVERS CAFE. All rights reserved.
         </p>
         <div className="flex gap-6 text-[10px] uppercase tracking-widest text-gray-600">
           <span className="hover:text-white cursor-pointer transition-colors">Privacy</span>

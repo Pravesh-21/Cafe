@@ -61,19 +61,19 @@ export default function StoryPage() {
               </div>
               
               <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-black text-[#1E1815] uppercase mb-6 leading-[0.9] tracking-tighter">
-                Seasonal <span className="font-serif italic font-normal normal-case text-[#B5654A]">Roasts</span> <br />Crafted With <span className="font-serif italic font-normal normal-case text-[#B5654A]">Passion</span>.
+                Immense Flavor. <br />Immaculate <span className="font-serif italic font-normal normal-case text-[#B5654A]">Vibes</span>.
               </h2>
               
               <p className="font-serif italic text-lg text-[#1E1815]/70 mb-6 max-w-xl leading-relaxed">
-                We bring vibrant single-origin harvests and warm micro-lot hospitality together.
+                We bring exceptional flavors and aesthetic spaces together for your perfect daily ritual.
               </p>
               
               <div className="space-y-4 font-sans text-sm text-[#1E1815]/80 leading-relaxed max-w-xl">
                 <p>
-                  From delicate light roasts designed to challenge your sensory boundaries, to bold dark extractions engineered with restraint, every drop is crafted with passion.
+                  From your morning aesthetic latte to late-afternoon comfort food, we've got your vibe covered. Every dish and drink is a statement.
                 </p>
                 <p>
-                  Founded in 2026, Cravers began as an experimental roastery challenging the status quo. Today, we directly source from high-altitude farms across the globe to curate an unparalleled experience.
+                  Founded in 2026, Cravers began as a space to escape the ordinary. Today, we are your go-to sanctuary for incredible coffee, delicious food, and unmatched vibes.
                 </p>
               </div>
             </motion.div>
@@ -99,16 +99,16 @@ export default function StoryPage() {
             </div>
             
             <h2 className="font-display text-4xl md:text-5xl font-black text-[#1E1815] uppercase mb-6 leading-none tracking-tighter">
-              Beyond <br />the Bean.
+              More than <br />just coffee.
             </h2>
             
             <p className="font-serif italic text-lg text-[#1E1815]/70 mb-6 leading-relaxed max-w-md">
-              Our master roasters use a combination of traditional techniques and modern precision.
+              Our team crafts every plate and pour to be a memorable experience.
             </p>
             
             <div className="space-y-4 font-sans text-sm text-[#1E1815]/80 leading-relaxed max-w-md">
               <p>
-                From the initial crack to the final cooling, every second counts. We travel the globe to find the most exceptional coffee cherries, working directly with farmers who share our passion for quality and sustainability.
+                We source the best ingredients and obsess over presentation. Because your food should be as aesthetic as your surroundings.
               </p>
             </div>
 
@@ -116,11 +116,11 @@ export default function StoryPage() {
             <div className="mt-10 grid grid-cols-2 gap-8 w-full max-w-md">
               <div className="border-t border-[#1E1815]/10 pt-6">
                 <span className="font-display text-5xl font-black text-[#1E1815] tracking-tighter">100%</span>
-                <span className="font-sans text-[10px] uppercase tracking-wider text-[#1E1815]/50 block mt-2 font-black">Direct Trade</span>
+                <span className="font-sans text-[10px] uppercase tracking-wider text-[#1E1815]/50 block mt-2 font-black">Ethically Sourced</span>
               </div>
               <div className="border-t border-[#1E1815]/10 pt-6">
                 <span className="font-display text-5xl font-black text-[#1E1815] tracking-tighter">20+</span>
-                <span className="font-sans text-[10px] uppercase tracking-wider text-[#1E1815]/50 block mt-2 font-black">Origin Countries</span>
+                <span className="font-sans text-[10px] uppercase tracking-wider text-[#1E1815]/50 block mt-2 font-black">Signature Drinks</span>
               </div>
             </div>
           </div>
@@ -137,7 +137,7 @@ export default function StoryPage() {
               
               <div className="absolute bottom-6 left-6 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <span className="font-sans text-[10px] uppercase tracking-widest font-black bg-[#1E1815]/50 px-3 py-1 rounded-full backdrop-blur-sm">The Process</span>
-                <h3 className="font-display text-xl font-black uppercase mt-2">Art of the Roast</h3>
+                <h3 className="font-display text-xl font-black uppercase mt-2">Art of the Brew</h3>
               </div>
             </div>
           </div>
@@ -163,14 +163,14 @@ export default function StoryPage() {
               Not Just <br />Coffee.
             </h2>
             <p className="font-serif italic text-[#1E1815]/70 text-lg mb-6 leading-relaxed max-w-md">
-              While coffee is our first love, we are equally passionate about our diverse beverage menu.
+              We love coffee, but our specialty drinks are on another level.
             </p>
             <div className="space-y-4 font-sans text-sm text-[#1E1815]/80 leading-relaxed max-w-md">
               <p>
-                From vibrant, hand-shaken iced teas and herbal infusions to rich, creamy smoothies made with fresh fruits, our craft beverages are prepared with the exact same care and precision as our signature roasts.
+                From vibrant iced teas and fresh smoothies to signature mocktails, every drink is crafted to be as refreshing as it is aesthetic.
               </p>
               <p>
-                We believe in offering a spectrum of flavors for every palate. Every drink is a composition designed to refresh, inspire, and delight.
+                We believe in bold flavors and beautiful presentation. Perfect for any mood, any time of day.
               </p>
             </div>
           </div>
@@ -231,13 +231,13 @@ export default function StoryPage() {
           <div className="w-full max-w-sm bg-rose-50/95 backdrop-blur-sm border border-rose-100 p-6 rounded-2xl shadow-xl rotate-[-3deg] lg:translate-y-[-40px] hover:rotate-0 hover:translate-y-0 transition-all duration-500">
             <span className="text-amber-500 text-lg block mb-3">★★★★★</span>
             <p className="font-sans text-sm text-[#1E1815]/85 leading-relaxed mb-6 font-black">
-              "Absolutely delicious coffee and a wonderful ritual! Every Saturday morning cup is a precise, beautiful experience that feels sacred."
+              "The aesthetics, the food, the coffee... everything is a 10/10. My absolute favorite spot to work and relax."
             </p>
             <div className="flex gap-2 items-center">
               <div className="w-8 h-8 rounded-full bg-rose-200/50 flex items-center justify-center font-display text-xs font-black">S</div>
               <div>
                 <span className="font-sans text-xs font-black uppercase text-[#1E1815] block">SARAH W.</span>
-                <span className="font-sans text-[10px] text-gray-500">Member since 2024</span>
+                <span className="font-sans text-[10px] text-gray-500">Regular since 2024</span>
               </div>
             </div>
           </div>
@@ -261,13 +261,13 @@ export default function StoryPage() {
           <div className="w-full max-w-sm bg-sky-50/90 backdrop-blur-sm border border-sky-100 p-6 rounded-2xl shadow-xl rotate-[3deg] lg:translate-y-[-20px] hover:rotate-0 hover:translate-y-0 transition-all duration-500">
             <span className="text-amber-500 text-lg block mb-3">★★★★★</span>
             <p className="font-sans text-sm text-[#1E1815]/85 leading-relaxed mb-6 font-black">
-              "It is the extra attention to detail and care that Cravers guests have for the smallest details that make a massive difference."
+              "Best matcha latte in the city. And the plates are literally art. Worth the hype."
             </p>
             <div className="flex gap-2 items-center">
               <div className="w-8 h-8 rounded-full bg-sky-200/50 flex items-center justify-center font-display text-xs font-black">J</div>
               <div>
                 <span className="font-sans text-xs font-black uppercase text-[#1E1815] block">JOHAN R.</span>
-                <span className="font-sans text-[10px] text-gray-500">Espresso Purist</span>
+                <span className="font-sans text-[10px] text-gray-500">Foodie</span>
               </div>
             </div>
           </div>

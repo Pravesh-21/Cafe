@@ -26,10 +26,10 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'CRAVERS — Specialty Microlots & Precision Extraction',
+  title: 'CRAVERS — Craft Coffee & Artisan Eats',
   description:
-    'Members-only specialty direct-trade coffee reserve. Ultra-premium micro-lots sourced at extreme altitudes, roasted with obsession.',
-  keywords: 'specialty coffee, direct trade, microlots, single origin, coffee subscription',
+    'A premium cafe sanctuary offering exceptional specialty coffee and chef-crafted eats. Sourced with care, served with passion.',
+  keywords: 'cafe, craft coffee, specialty coffee, artisan eats, brunch, coffee shop',
 };
 
 export default function RootLayout({
