@@ -1,0 +1,23 @@
+[
+  {
+    "id": "test_001",
+    "name": "Priya M.",
+    "rating": 5,
+    "text": "The latte art here is absolutely stunning. Best coffee in the city, hands down!",
+    "date": "2026-05-18"
+  },
+  {
+    "id": "test_002",
+    "name": "Arjun S.",
+    "rating": 5,
+    "text": "Incredible vibes, amazing food, and coffee that genuinely makes you stop and savour every sip.",
+    "date": "2026-05-22"
+  },
+  {
+    "id": "test_003",
+    "name": "Neha K.",
+    "rating": 5,
+    "text": "The biophilic design is everything. I've never felt so relaxed while working remotely!",
+    "date": "2026-06-01"
+  }
+]

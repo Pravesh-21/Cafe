@@ -1,0 +1,128 @@
+[
+  {
+    "id": "item_001",
+    "category": "coffee",
+    "name": "Signature Espresso",
+    "price": 4.5,
+    "description": "Double shot, silky crema, rich chocolatey finish.",
+    "image": "/coffee_cup.png",
+    "tags": [
+      "bestseller",
+      "hot"
+    ],
+    "rating": 4.9,
+    "reviews": 240
+  },
+  {
+    "id": "item_002",
+    "category": "coffee",
+    "name": "Latte Art Pour",
+    "price": 5.5,
+    "description": "Perfectly textured micro-foam latte with barista art.",
+    "image": "/latte_art.png",
+    "tags": [
+      "hot",
+      "popular"
+    ],
+    "rating": 4.8,
+    "reviews": 310
+  },
+  {
+    "id": "item_003",
+    "category": "coffee",
+    "name": "Nitro Cold Brew",
+    "price": 6,
+    "description": "Smooth, bold, served on tap with a creamy nitrogen finish.",
+    "image": "/cold_brew.png",
+    "tags": [
+      "cold",
+      "bestseller"
+    ],
+    "rating": 4.7,
+    "reviews": 180
+  },
+  {
+    "id": "item_004",
+    "category": "food",
+    "name": "Artisan Croissant",
+    "price": 5.5,
+    "description": "Flaky, butter-rich layers. The ultimate morning comfort.",
+    "image": "/croissant.png",
+    "tags": [
+      "breakfast",
+      "pastry"
+    ],
+    "rating": 4.8,
+    "reviews": 120
+  },
+  {
+    "id": "item_005",
+    "category": "food",
+    "name": "Gourmet Burger",
+    "price": 14,
+    "description": "Wagyu patty, caramelised onion, truffle aioli on brioche.",
+    "image": "/burger.png",
+    "tags": [
+      "lunch",
+      "dinner",
+      "popular"
+    ],
+    "rating": 4.9,
+    "reviews": 95
+  },
+  {
+    "id": "item_006",
+    "category": "food",
+    "name": "Artisan Pizza",
+    "price": 16,
+    "description": "Wood-fired thin crust, seasonal toppings, fresh basil.",
+    "image": "/pizza.png",
+    "tags": [
+      "dinner",
+      "sharing"
+    ],
+    "rating": 4.7,
+    "reviews": 78
+  },
+  {
+    "id": "item_007",
+    "category": "food",
+    "name": "Club Sandwich",
+    "price": 12,
+    "description": "Triple-decker with chicken, avocado, crispy bacon, and pesto.",
+    "image": "/sandwich.png",
+    "tags": [
+      "lunch"
+    ],
+    "rating": 4.6,
+    "reviews": 62
+  },
+  {
+    "id": "item_008",
+    "category": "drinks",
+    "name": "Tropical Smoothie",
+    "price": 7,
+    "description": "Mango, passionfruit, and coconut milk — pure sunshine.",
+    "image": "/smoothie.png",
+    "tags": [
+      "cold",
+      "healthy"
+    ],
+    "rating": 4.8,
+    "reviews": 150
+  },
+  {
+    "id": "item_009",
+    "category": "drinks",
+    "name": "Craft Tea",
+    "price": 4,
+    "description": "Single-origin loose leaf, brewed to perfection.",
+    "image": "/tea.png",
+    "tags": [
+      "hot",
+      "cold"
+    ],
+    "rating": 4.5,
+    "reviews": 88
+  }
+]

@@ -26,7 +26,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'CRAVERS — Craft Coffee & Artisan Eats',
+  title: 'CAFE — Craft Coffee & Artisan Eats',
   description:
     'A premium cafe sanctuary offering exceptional specialty coffee and chef-crafted eats. Sourced with care, served with passion.',
   keywords: 'cafe, craft coffee, specialty coffee, artisan eats, brunch, coffee shop',

@@ -133,7 +133,7 @@ export default function Home() {
             </p>
             <div className="space-y-4 font-sans text-sm text-[#1E1815]/80 leading-relaxed max-w-sm">
               <p>
-                Cravers was born out of a desire to merge the art of specialty beverages with the calming power of nature. Our space is designed with a biophilic philosophy, featuring live green walls and natural light.
+                CAFE was born out of a desire to merge the art of specialty beverages with the calming power of nature. Our space is designed with a biophilic philosophy, featuring live green walls and natural light.
               </p>
               <p>
                 From our artisanal espresso drinks to our fresh-pressed botanical juices, every beverage is a composition of flavors designed to refresh and inspire. It's not just a cafe; it's an escape.
@@ -215,7 +215,7 @@ export default function Home() {
             <div className="font-sans text-[11px] uppercase tracking-[0.2em] font-black text-[#FAF7F0]/60 border border-[#FAF7F0]/10 rounded-full px-4 py-1.5 mb-4 bg-white/5 backdrop-blur-sm">
               Our Ethos
             </div>
-            <h2 className="font-display text-5xl md:text-6xl font-black text-white uppercase mb-4">The Cravers Way</h2>
+            <h2 className="font-display text-5xl md:text-6xl font-black text-white uppercase mb-4">The Cafe Way</h2>
             <p className="font-serif italic text-[#FAF7F0]/70 text-lg max-w-2xl">Where every detail is a vibe, and every cup tells a story.</p>
           </motion.div>
 
@@ -433,7 +433,7 @@ export default function Home() {
       <footer className="bg-[#1E1815] text-[#FAF7F0]/50 py-12 px-6 md:px-12 border-t border-white/10">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
-            <h3 className="font-display text-xl font-black text-white uppercase mb-2">Cravers</h3>
+            <h3 className="font-display text-xl font-black text-white uppercase mb-2">Cafe</h3>
             <p className="font-serif italic text-sm">Craft Coffee & Artisan Eats</p>
           </div>
           <div className="flex gap-6 text-sm">
@@ -442,7 +442,7 @@ export default function Home() {
             <a href="#" className="hover:text-white transition-colors">Contact</a>
           </div>
           <div className="text-sm">
-            © 2026 Cravers. All rights reserved.
+            © 2026 Cafe. All rights reserved.
           </div>
         </div>
       </footer>

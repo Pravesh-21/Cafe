@@ -81,13 +81,13 @@ export default function LoadingScreen({ onComplete }: { onComplete: () => void }
       className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-[#1E1815] overflow-hidden"
       style={{ perspective: '600px' }}
     >
-      {/* Cravers wordmark */}
+      {/* Cafe wordmark */}
       <div
         ref={lettersRef}
         className="flex items-end gap-1 mb-10"
         style={{ fontFamily: 'var(--font-display)', perspective: '600px' }}
       >
-        {'CRAVERS'.split('').map((char, i) => (
+        {'CAFE'.split('').map((char, i) => (
           <span
             key={i}
             className="ltr inline-block text-[clamp(56px,10vw,110px)] font-black text-[#FAF7F0] tracking-tighter leading-none uppercase"

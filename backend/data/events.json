@@ -1,0 +1,26 @@
+[
+  {
+    "id": "evt_001",
+    "title": "Jazz & Brew Night",
+    "date": "2026-07-05T19:00:00Z",
+    "description": "Live jazz quartet with curated coffee cocktails.",
+    "capacity": 60,
+    "registered": 42
+  },
+  {
+    "id": "evt_002",
+    "title": "Latte Art Masterclass",
+    "date": "2026-07-12T10:00:00Z",
+    "description": "Learn to create stunning latte art from our head barista.",
+    "capacity": 15,
+    "registered": 11
+  },
+  {
+    "id": "evt_003",
+    "title": "Coffee Cupping Session",
+    "date": "2026-07-19T15:00:00Z",
+    "description": "Blind taste-test through 5 single-origin coffees from 3 continents.",
+    "capacity": 20,
+    "registered": 8
+  }
+]

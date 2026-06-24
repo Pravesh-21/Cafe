@@ -16,7 +16,7 @@ export default function StoryPage() {
         
         {/* Massive Background Text */}
         <div className="absolute -top-10 left-10 font-display text-[25vw] font-black text-[#1E1815]/[0.02] uppercase select-none pointer-events-none leading-none">
-          CRAVERS
+          CAFE
         </div>
 
         <div ref={manifestoRef} className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-0 items-center relative z-10">
@@ -73,7 +73,7 @@ export default function StoryPage() {
                   From your morning aesthetic latte to late-afternoon comfort food, we've got your vibe covered. Every dish and drink is a statement.
                 </p>
                 <p>
-                  Founded in 2026, Cravers began as a space to escape the ordinary. Today, we are your go-to sanctuary for incredible coffee, delicious food, and unmatched vibes.
+                  Founded in 2026, Cafe began as a space to escape the ordinary. Today, we are your go-to sanctuary for incredible coffee, delicious food, and unmatched vibes.
                 </p>
               </div>
             </motion.div>
